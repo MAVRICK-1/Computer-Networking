@@ -69,3 +69,84 @@ A **multiuser**, **multitasking**, and **portable** operating system, widely use
 ---
 
 Let me know if you want this in a printable format or flashcards.
+
+
+Here's a **very short and exam-oriented summary** of the given UNIX commands:
+
+---
+
+### 📅 **`cal`** – Calendar
+
+Displays the calendar of the current or given month/year.
+
+```sh
+cal           # current month
+cal 2025      # full calendar of 2025
+```
+
+---
+
+### 🕒 **`date`** – Display system date and time
+
+```sh
+date          # shows current date and time
+```
+
+---
+
+### 💬 **`echo`** – Message display
+
+Prints text or variable values.
+
+```sh
+echo "Hello"  
+echo $HOME  
+```
+
+---
+
+### 🧮 **`bc`** – Calculator (basic calculator)
+
+Command-line calculator, supports floating point:
+
+```sh
+echo "5+3" | bc  
+```
+
+---
+
+### 🔒 **`passwd`** – Change user password
+
+```sh
+passwd        # prompts to change your password
+```
+
+---
+
+### 👥 **`who`** – Shows logged-in users
+
+```sh
+who           # lists users currently logged in
+```
+
+---
+
+### 🖥️ **`uname`** – System information
+
+```sh
+uname         # system name
+uname -a      # all system info (kernel, architecture, etc.)
+```
+
+---
+
+### 🧷 **`tty`** – Terminal filename connected to input
+
+```sh
+tty           # returns the terminal device (e.g., /dev/pts/0)
+```
+
+---
+
+Let me know if you'd like a 1-page PDF of all these UNIX quick-revision notes!
+
